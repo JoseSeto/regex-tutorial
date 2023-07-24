@@ -41,6 +41,12 @@ The next component we will be discussing is the "or" operator. The "or" operator
 
 ### Character Classes
 
+/^#?(`[a-f0-9]`{6}|`[a-f0-9]`{3})$/
+
+In our regex we have one character class that is repeated twice: `[a-f0-9]`. A character class matches any character enclosed in brackets. For example: `[abc]` will match "a" or "b" or "c". `[-.]` will match "-" or ".". 
+
+Inside our character class we have two ranges: `a-f` and `0-9`. This means that it maches any character "a" through "f" (lowercase, it won't match uppercase), and "0" through "9".  Other examples: `[m-p]` matches "m", "n", "o" or "p". `[3-5]` matches "3", "4" or "5".
+
 ### Flags
 
 ### Grouping and Capturing
