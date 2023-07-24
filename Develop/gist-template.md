@@ -24,6 +24,10 @@ Briefly summarize the regex you will be describing and what you will explain. In
 
 ### Anchors
 
+`/^`#?([a-f0-9]{6}|[a-f0-9]{3})`$/`
+
+The first component that we will break down are the anchors. As shown in the highlighted portion of the regular expression, the components that are highlighted are called anchors. Anchors are used at the start and end of a string or expression. In this case `/^` and `$/` signify the beginning or end of our expression.
+
 ### Quantifiers
 
 ### OR Operator
