@@ -46,5 +46,5 @@ Briefly summarize the regex you will be describing and what you will explain. In
 
 ## Author
 
-Written by: Jose Seto
+Written by: Jose Seto\
 Github Portfolio [Jose Seto](https://github.com/JoseSeto)
