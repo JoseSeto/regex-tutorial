@@ -35,6 +35,10 @@ Hex Triplet Formats Include:
 
 ### OR Operator
 
+/^#?([a-f0-9]{6}`|`[a-f0-9]{3})$/
+
+The next component we will be discussing is the "or" operator. The "or" operator within a regular expression is defined using the `|` element. The or operator indicates that it could either of the components that we are separating with the `|`. For our hex value regular expression we have ([a-f0-9]{6}`|`[a-f0-9]{3}). Note the or operator separating these 2 components. This means that our hex value could either be 6 characters `[a-f0-9]{6}` or 3 characters `[a-f0-9]{3}`.
+
 ### Character Classes
 
 ### Flags
