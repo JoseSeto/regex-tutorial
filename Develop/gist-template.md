@@ -16,10 +16,6 @@ Briefly summarize the regex you will be describing and what you will explain. In
 - [Grouping and Capturing](#grouping-and-capturing)
 - [Bracket Expressions](#bracket-expressions)
 - [Greedy and Lazy Match](#greedy-and-lazy-match)
-- [Boundaries](#boundaries)
-- [Back-references](#back-references)
-- [Look-ahead and Look-behind](#look-ahead-and-look-behind)
-
 ## Regex Components
 
 ### Anchors
@@ -41,12 +37,6 @@ The first component that we will break down are the anchors. As shown in the hig
 ### Bracket Expressions
 
 ### Greedy and Lazy Match
-
-### Boundaries
-
-### Back-references
-
-### Look-ahead and Look-behind
 
 ## Author
 
