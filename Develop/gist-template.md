@@ -26,6 +26,13 @@ The first component that we will break down are the anchors. As shown in the hig
 
 ### Quantifiers
 
+/^#`?`([a-f0-9]`{6}`|[a-f0-9]`{3}`)$/
+
+Next up, quantifiers. Quantifiers are used to communicate how many characters are expected. Quantifiers specify how many instances of a character, group, or character class must be present in the input for a match to be found. By default, quantifiers are greedy, which we will go over in more detail later in the tutorial, and will match as many characters as possible. If the "*,+,?,{}"* characters are found within regular expressions, they are considered quantifiers. The `?` indicates the expression to match 0 or 1 time. As mentioned in the summary above because there are 2 types of formats we'll use the or operator to distinguish which format we are using. In our Hex Value regular expression we have `{6}` (Hex Triplet Format) and `{3}` (Shorthand Hex Format), this indicates that the length of the component preceding these quantifiers should be 6 for `{6}` and 3 for `{3}`. 
+
+Hex Triplet Formats Include:
+#000000, #FFFFFFF, #0099CC
+
 ### OR Operator
 
 ### Character Classes
