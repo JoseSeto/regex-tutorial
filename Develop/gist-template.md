@@ -1,6 +1,6 @@
-# Title (replace with your title)
+# Matching HEX values
 
-Introductory paragraph (replace this with your text)
+The following tutorial will go over how to match a regular expression, or regex, for HEX values. Each section will cover a specific part of the regex and explain that section of the regex.
 
 ## Summary
 
