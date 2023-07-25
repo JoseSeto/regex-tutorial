@@ -60,6 +60,7 @@ Flags are for advanced searching with a regex, in the hex code value we can see 
 ### Greedy and Lazy Match
 /^#`?`([a-f0-9]{6}|[a-f0-9]{3})$/
 
+[Top of Page](#Matching-HEX-Values)
 ## Author
 
 Written by: Jose Seto\
