@@ -4,7 +4,7 @@ The following tutorial will go over how to match a regular expression, or regex,
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+This tutorial will cover and break down each section of a regular expression, or regex, used in matching a Hex Value. Hex values are most commonly used in hexadecimal color code formatting, e.g. **#00FF98**. There are two main formats for hex color codes, the example from before is using the standard hexideicmal triplet, the other format is the shorthand version, usually written as follows **#000**. Both formats however, will each start with a **#**
 
 ## Table of Contents
 
@@ -69,4 +69,4 @@ In this section we will discuss greedy and lazy matches. A greedy match tries to
 ## Author
 
 Written by: Jose Seto\
-Github Portfolio [Jose Seto](https://github.com/JoseSeto)
+Github: [Jose Seto](https://github.com/JoseSeto)
