@@ -13,7 +13,6 @@ Briefly summarize the regex you will be describing and what you will explain. In
 - [OR Operator](#or-operator)
 - [Character Classes](#character-classes)
 - [Flags](#flags)
-- [Grouping and Capturing](#grouping-and-capturing)
 - [Bracket Expressions](#bracket-expressions)
 - [Greedy and Lazy Match](#greedy-and-lazy-match)
 ## Regex Components
@@ -55,7 +54,6 @@ Flags are for advanced searching with a regex, in the hex code value we can see 
 
   - `^#?([a-f0-9]{6}|[a-f0-9]{3})$` is showing that the hex value could be wrapped onto multiple lines
   - 
-### Grouping and Capturing
 
 ### Bracket Expressions
 
