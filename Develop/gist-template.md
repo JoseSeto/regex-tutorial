@@ -57,6 +57,8 @@ Flags are for advanced searching with a regex, in the hex code value we can see 
 ### Bracket Expressions
 /^#?`([a-f0-9]{6}|[a-f0-9]{3})`$/
 
+Bracket expressions in our regular expression signify the beginning of a character class or quantifier statement. In our example we use parenthesis to define our bracket expressions.
+
 ### Greedy and Lazy Match
 /^#`?`([a-f0-9]{6}|[a-f0-9]{3})$/
 
