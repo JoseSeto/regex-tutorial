@@ -56,8 +56,10 @@ Flags are for advanced searching with a regex, in the hex code value we can see 
   - 
 
 ### Bracket Expressions
+/^#?`([a-f0-9]{6}|[a-f0-9]{3})`$/
 
 ### Greedy and Lazy Match
+/^#`?`([a-f0-9]{6}|[a-f0-9]{3})$/
 
 ## Author
 
