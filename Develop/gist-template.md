@@ -53,7 +53,6 @@ Inside our character class we have two ranges: `a-f` and `0-9`. This means that 
 Flags are for advanced searching with a regex, in the hex code value we can see that we have a multi-line flag by using a ^ and $ at the beginning and end of the string. This allows the expression to cross multi-lines of code without breaking it.
 
   - `^#?([a-f0-9]{6}|[a-f0-9]{3})$` is showing that the hex value could be wrapped onto multiple lines
-  - 
 
 ### Bracket Expressions
 /^#?`([a-f0-9]{6}|[a-f0-9]{3})`$/
